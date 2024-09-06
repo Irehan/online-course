@@ -10,7 +10,7 @@ function OurCourses() {
                             <div className="card">
                                 <div className="card-header p-0 position-relative">
                                     <a href="#course-single" className="zoom d-block">
-                                        <img className="card-img-bottom d-block" src="assets/images/c1.jpg" alt="Card image cap" />
+                                        <img className="card-img-bottom d-block" src="assets/images/c1.jpg" alt="" />
                                     </a>
                                     <div className="post-pos">
                                         <a href="#reciepe" className="receipe blue">Beginner</a>

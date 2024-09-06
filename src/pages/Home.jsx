@@ -28,7 +28,7 @@ export const Home = () => (
                                         <img
                                             className="card-img-bottom d-block"
                                             src="assets/images/c1.jpg"
-                                            alt="Card image cap"
+                                            alt="A description of the example"
                                         />
                                     </Link>
                                     <div className="post-pos">
@@ -76,7 +76,7 @@ export const Home = () => (
                                     <div className="author align-items-center">
                                         <img
                                             src="assets/images/a1.jpg"
-                                            alt=""
+                                            alt="A description of the example"
                                             className="img-fluid rounded-circle"
                                         />
                                         <ul className="blog-meta">
@@ -100,7 +100,7 @@ export const Home = () => (
                                         <img
                                             className="card-img-bottom d-block"
                                             src="assets/images/c5.jpg"
-                                            alt="Card image cap"
+                                            alt="A description of the example"
                                         />
                                     </Link>
                                     <div className="course-price-badge"> Free</div>
@@ -149,7 +149,7 @@ export const Home = () => (
                                     <div className="author align-items-center">
                                         <img
                                             src="assets/images/a2.jpg"
-                                            alt=""
+                                            alt="A description of the example"
                                             className="img-fluid rounded-circle"
                                         />
                                         <ul className="blog-meta">
@@ -173,7 +173,7 @@ export const Home = () => (
                                         <img
                                             className="card-img-bottom d-block"
                                             src="assets/images/c6.jpg"
-                                            alt="Card image cap"
+                                            alt="A description of the example"
                                         />
                                     </Link>
                                     <div className="course-price-badge-new"> New</div>
@@ -217,7 +217,7 @@ export const Home = () => (
                                     <div className="author align-items-center">
                                         <img
                                             src="assets/images/a4.jpg"
-                                            alt=""
+                                            alt="A description of the example"
                                             className="img-fluid rounded-circle"
                                         />
                                         <ul className="blog-meta">
@@ -353,7 +353,7 @@ export const Home = () => (
                                 <div className="author align-items-center">
                                     <img
                                         src="assets/images/team1.jpg"
-                                        alt=""
+                                        alt="A description of the example"
                                         className="img-fluid rounded-circle"
                                     />
                                     <ul className="blog-meta">
@@ -381,7 +381,7 @@ export const Home = () => (
                                 <div className="author align-items-center">
                                     <img
                                         src="assets/images/team2.jpg"
-                                        alt=""
+                                        alt="A description of the example"
                                         className="img-fluid rounded-circle"
                                     />
                                     <ul className="blog-meta">
@@ -409,7 +409,7 @@ export const Home = () => (
                                     <div className="author align-items-center">
                                         <img
                                             src="assets/images/team3.jpg"
-                                            alt=""
+                                            alt="A description of the example"
                                             className="img-fluid rounded-circle"
                                         />
                                         <ul className="blog-meta">
@@ -489,7 +489,7 @@ export const Home = () => (
                                         <Link to="#url">
                                             <img
                                                 src="assets/images/team1.jpg"
-                                                alt=""
+                                                alt="A description of the example"
                                                 className="img-fluid radius-image"
                                             />
                                         </Link>
@@ -518,7 +518,7 @@ export const Home = () => (
                                         <Link to="#url">
                                             <img
                                                 src="assets/images/team2.jpg"
-                                                alt=""
+                                                alt="A description of the example"
                                                 className="img-fluid radius-image"
                                             />
                                         </Link>
@@ -547,7 +547,7 @@ export const Home = () => (
                                         <Link to="#url">
                                             <img
                                                 src="assets/images/team3.jpg"
-                                                alt=""
+                                                alt="A description of the example"
                                                 className="img-fluid radius-image"
                                             />
                                         </Link>
@@ -576,7 +576,7 @@ export const Home = () => (
                                         <Link to="#url">
                                             <img
                                                 src="assets/images/team4.jpg"
-                                                alt=""
+                                                alt="A description of the example"
                                                 className="img-fluid radius-image"
                                             />
                                         </Link>
@@ -615,42 +615,42 @@ export const Home = () => (
                             <div className="col-lg-2 col-md-3 col-4">
                                 <img
                                     src="assets/images/brand1.png"
-                                    alt=""
+                                    alt="A description of the example"
                                     className="img-fluid"
                                 />
                             </div>
                             <div className="col-lg-2 col-md-3 col-4">
                                 <img
                                     src="assets/images/brand2.png"
-                                    alt=""
+                                    alt="A description of the example"
                                     className="img-fluid"
                                 />
                             </div>
                             <div className="col-lg-2 col-md-3 col-4">
                                 <img
                                     src="assets/images/brand3.png"
-                                    alt=""
+                                    alt="A description of the example"
                                     className="img-fluid"
                                 />
                             </div>
                             <div className="col-lg-2 col-md-3 col-4 mt-md-0 mt-4">
                                 <img
                                     src="assets/images/brand4.png"
-                                    alt=""
+                                    alt="A description of the example"
                                     className="img-fluid"
                                 />
                             </div>
                             <div className="col-lg-2 col-md-3 col-4 mt-lg-0 mt-4">
                                 <img
                                     src="assets/images/brand5.png"
-                                    alt=""
+                                    alt="A description of the example"
                                     className="img-fluid"
                                 />
                             </div>
                             <div className="col-lg-2 col-md-3 col-4 mt-lg-0 mt-4">
                                 <img
                                     src="assets/images/brand6.png"
-                                    alt=""
+                                    alt="A description of the example"
                                     className="img-fluid"
                                 />
                             </div>

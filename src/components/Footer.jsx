@@ -78,14 +78,14 @@ export const Footer = () => (
                             <img
                                 src="assets/images/googleplay.png"
                                 className="img-responsive"
-                                alt=""
+                                alt="A description of the example"
                             />
                         </a>
                         <a href="#appstore">
                             <img
                                 src="assets/images/appstore.png"
                                 className="img-responsive mt-3"
-                                alt=""
+                                alt="A description of the example"
                             />
                         </a>
                     </div>

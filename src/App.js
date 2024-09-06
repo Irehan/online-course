@@ -3,12 +3,12 @@ import {About} from './pages/About'
 import {Contact} from './pages/Contact'
 import {Courses} from './pages/Courses'
 import {Home } from './pages/Home'
-import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import {HashRouter, Routes, Route} from 'react-router-dom'
 import ScrollToTop from './components/ScrollToTop'
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
     <ScrollToTop />
       <Routes>
       <Route path="/" element={<Home />} />
@@ -17,7 +17,7 @@ function App() {
       <Route path='/courses' element={<Courses/>}/>
       <Route path='/Contact' element={<Contact/>}/>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 

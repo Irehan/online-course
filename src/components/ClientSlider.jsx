@@ -58,7 +58,7 @@ const ClientSlider = () => {
                                                     <img
                                                         src="assets/images/team1.jpg"
                                                         className="img-fluid"
-                                                        alt="client-img"
+                                                        alt="A description of the example"
                                                     />
                                                 </div>
                                                 <div className="peopl align-self">
@@ -85,7 +85,7 @@ const ClientSlider = () => {
                                                     <img
                                                         src="assets/images/team2.jpg"
                                                         className="img-fluid"
-                                                        alt="client-img"
+                                                        alt="A description of the example"
                                                     />
                                                 </div>
                                                 <div className="peopl align-self">
@@ -112,7 +112,7 @@ const ClientSlider = () => {
                                                     <img
                                                         src="assets/images/team3.jpg"
                                                         className="img-fluid"
-                                                        alt="client-img"
+                                                        alt="A description of the example"
                                                     />
                                                 </div>
                                                 <div className="peopl align-self">
@@ -139,7 +139,7 @@ const ClientSlider = () => {
                                                     <img
                                                         src="assets/images/team4.jpg"
                                                         className="img-fluid"
-                                                        alt="client-img"
+                                                        alt="A description of the example"
                                                     />
                                                 </div>
                                                 <div className="peopl align-self">
@@ -166,7 +166,7 @@ const ClientSlider = () => {
                                                     <img
                                                         src="assets/images/team2.jpg"
                                                         className="img-fluid"
-                                                        alt="client-img"
+                                                        alt="A description of the example"
                                                     />
                                                 </div>
                                                 <div className="peopl align-self">
@@ -193,7 +193,7 @@ const ClientSlider = () => {
                                                     <img
                                                         src="assets/images/team3.jpg"
                                                         className="img-fluid"
-                                                        alt="client-img"
+                                                        alt="A description of the example"
                                                     />
                                                 </div>
                                                 <div className="peopl align-self">
@@ -220,7 +220,7 @@ const ClientSlider = () => {
                                                     <img
                                                         src="assets/images/team2.jpg"
                                                         className="img-fluid"
-                                                        alt="client-img"
+                                                        alt="A description of the example"
                                                     />
                                                 </div>
                                                 <div className="peopl align-self">
@@ -247,7 +247,7 @@ const ClientSlider = () => {
                                                     <img
                                                         src="assets/images/team3.jpg"
                                                         className="img-fluid"
-                                                        alt="client-img"
+                                                        alt="A description of the example"
                                                     />
                                                 </div>
                                                 <div className="peopl align-self">
