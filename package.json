@@ -1,7 +1,8 @@
 {
-  "name": "apna-study",
+  "name": "online-course",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://irehan.github.io/online-course/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
