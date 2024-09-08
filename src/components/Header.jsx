@@ -10,7 +10,7 @@ export const Header = () => (
                 <h1>
                     <Link className="navbar-brand" to="/home">
                         <span className="fa fa-diamond" />
-                        Study Course <span className="logo">Hello</span>
+                        Study Course <span className="logo">Journey to success</span>
                     </Link>
                 </h1>
                 <button
