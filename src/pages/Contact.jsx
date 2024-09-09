@@ -3,6 +3,7 @@ import { Header } from '../components/Header'
 import { Footer } from '../components/Footer'
 import MoveToTop from '../components/MoveToTop'
 import Breadcrumb from '../components/Breadcrumb'
+import { ContactForm } from '../components/ContactForm'
 export const Contact = () => (
     <>
         <Header />
@@ -46,23 +47,7 @@ export const Contact = () => (
                         </div>
                         <div className="map-content-9">
                             <h5 className="mb-sm-4 mb-3">Write to us</h5>
-                            <form action="https://sendmail.w3layouts.com/submitForm" method="post">
-                                <div className="twice-two">
-                                    <input type="text" className="form-control" name="w3lName" id="w3lName" placeholder="Name"
-                                        required />
-                                    <input type="email" className="form-control" name="w3lSender" id="w3lSender" placeholder="Email"
-                                        required />
-                                </div>
-                                <div className="twice">
-                                    <input type="text" className="form-control" name="w3lSubject" id="w3lSubject"
-                                        placeholder="Subject" required />
-                                </div>
-                                <textarea name="w3lMessage" className="form-control" id="w3lMessage" placeholder="Message"
-                                    required></textarea>
-                                <div className="text-right">
-                                    <button type="submit" className="btn btn-primary btn-style mt-4">Send Message</button>
-                                </div>
-                            </form>
+                            <ContactForm />
                         </div>
                     </div>
                 </div>
