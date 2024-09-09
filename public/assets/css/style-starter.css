@@ -10129,18 +10129,11 @@ a.login:hover {
   background: var(--bg-color);
   line-height: 35px;
   display: inline-block;
-  transition: 0.5s ease-out;
-  font-weight: 700;
-  display: block;
   height: 80px;
-  margin: 0 auto;
-  border-radius: 0;
-  -webkit-border-top-right-radius: var(--border-radius);
-  -webkit-border-bottom-right-radius: var(--border-radius);
   -moz-border-radius-topright: var(--border-radius);
   -moz-border-radius-bottomright: var(--border-radius);
-  border-top-right-radius: var(--border-radius);
-  border-bottom-right-radius: var(--border-radius); }
+  border-radius: 0;
+}
 
 .navbar .search-right .popup form button:hover {
   background: var(--primary-color);
@@ -10153,7 +10146,7 @@ a.login:hover {
   border: none; }
 
 .navbar .search-right .pop-overlay {
-  position: fixed;
+  /* position: fixed;
   top: 0px;
   left: 0;
   right: 0;
@@ -10163,20 +10156,13 @@ a.login:hover {
   z-index: 99;
   background: rgba(25, 23, 23, 0.81);
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.85);
-  height: 100vh; }
+  height: 100vh;  */
+}
 
 .navbar .search-right .pop-overlay:target {
   visibility: visible;
-  opacity: 1; }
-
-.navbar .search-right .popup {
-  margin: 0rem auto;
-  padding: 40px 50px;
-  max-width: 700px;
-  border-radius: 3px;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%); }
+  opacity: 1; 
+}
 
 .navbar .search-right .search-top {
   display: grid;
@@ -10223,6 +10209,16 @@ a.login:hover {
 .navbar .search-right .close:hover {
   opacity: 0.8;
   background: none; }
+
+  .popup{
+    width:70%;
+  }
+  .navbar .search-right .popup form input[type="search"]{
+    border-radius: 0;
+  }
+
+
+
 
 @media only screen and (max-width: 1440px) {
   .navbar-expand-lg .navbar-nav .nav-item {
@@ -12321,3 +12317,23 @@ span.plus {
 /* /contact1 */
 
 /*# sourceMappingURL=style-starter.css.map */
+.navbar form.search-box {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar .search-right .close{
+  cursor: pointer;
+  position: absolute;
+  top: -40px;
+  right: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  background: #000;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
