@@ -12337,3 +12337,14 @@ span.plus {
   justify-content: center;
   align-items: center;
 }
+
+.loginForm h2,
+.login-form label
+{
+  color: #000;
+    text-align: left;
+}
+.login-form .btn{
+background-color: thistle;
+
+}
