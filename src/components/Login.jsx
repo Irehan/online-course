@@ -16,7 +16,7 @@ export const Login = () => {
     };
 
     return (
-        <div className="top-quote mr-lg-2 text-center">
+        <div className="top-quote mr-lg-2 text-center loginForm">
             {/* Login Button */}
             <a
                 href="#login"

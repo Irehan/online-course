@@ -239,7 +239,7 @@ export const Home = () => (
                         <p className="pt-md-3 sample text-center">
                             Control your personal preference settings to get notified about
                             appropriate courses
-                            <Link to="courses.html">
+                            <Link to="/courses">
                                 View All Courses{" "}
                                 <span className="pl-2 fa fa-long-arrow-right" />
                             </Link>
