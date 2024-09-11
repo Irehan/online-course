@@ -95,7 +95,7 @@ export const Footer = () => (
         <section className="w3l-copyright text-center">
             <div className="container">
                 <p className="copy-footer-29">
-                    © 2024 Study Course. All rights reserved.
+                    © 2024 Study Course. All rights reserved. <span> <a href="https://www.alirehanhaider.com/" target="_blank"> Powered by ARH </a> </span>
                 </p>
             </div>
 
