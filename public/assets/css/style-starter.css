@@ -12346,5 +12346,24 @@ span.plus {
 }
 .login-form .btn{
 background-color: thistle;
+}
 
+form.login-form {
+  text-align: left;
+}
+input#username,
+input#password
+{
+  border: .125rem solid #ccc;
+  border-radius: .3125rem;
+}
+
+.login-form .btn {
+  background-color: thistle;
+  margin: 15px 0 0;
+}
+
+form.login-form {
+  text-align: left;
+  margin-top: 20px;
 }
