@@ -23,7 +23,6 @@ export const Home = () => (
                     </h3>
                     <div className="row">
                         <CoursesList />
-                        <CoursesList />
                     </div>
                     <div className="mt-5 text-more">
                         <p className="pt-md-3 sample text-center">
