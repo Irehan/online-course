@@ -3,15 +3,13 @@ import React from 'react';
 
 function OurCourses({ image, title, price, duration, students, level, rating, author, authorImg, category }) {
     return (
-
-
         <>
             {/* Card 1 */}
             <div className="col-lg-4 col-md-6 item">
                 <div className="card">
                     <div className="card-header p-0 position-relative">
                         <a href="#course-single" className="zoom d-block">
-                            <img className="card-img-bottom d-block" src={image} alt={title} />
+                            <img className="card-img-bottom d-block" src={course.image} alt={title} />
                         </a>
                         <div className="post-pos">
                             <a href="#reciepe" className="receipe blue">{level}</a>
@@ -56,8 +54,6 @@ function OurCourses({ image, title, price, duration, students, level, rating, au
                 </div>
             </div>
         </>
-
-
     );
 }
 
