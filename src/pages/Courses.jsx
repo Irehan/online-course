@@ -10,19 +10,7 @@ export const Courses = () => (
     <>
         <Header />
         <Breadcrumb />
-        <CourseCard
-            key={index}
-            image={course.image}
-            title={course.title}
-            price={course.price}
-            duration={course.duration}
-            students={course.students}
-            level={course.level}
-            rating={course.rating}
-            author={course.author}
-            authorImg={course.authorImg}
-            category={course.category}
-        />
+        <CourseCard />
         <Pagination />
         <MoveToTop />
         <Footer />

@@ -2,7 +2,6 @@ import React from 'react';
 import CourseCard from './CourseCard';  // Updated import
 import courses from './coursesData'; // Adjust the path as necessary
 
-
 const CoursesList = () => {
     return (
         <section className="w3l-courses">
@@ -11,7 +10,7 @@ const CoursesList = () => {
                     <div className="row">
                         {courses.map((course, index) => (
                             <CourseCard
-                                key={index}
+                                key={index} // Adding a unique key for each course
                                 image={course.image}
                                 title={course.title}
                                 price={course.price}
