@@ -1,9 +1,8 @@
 import React from 'react';
-import OurCourses from './OurCourses';
+import CourseCard from './CourseCard';  // Updated import
 
 const courses = [
     {
-        // image: "/assets/images/c1.jpg",
         image: "/assets/images/c1.jpg",
         title: "Open Programming Courses for everyone: Python",
         price: "$35.00",
@@ -15,30 +14,7 @@ const courses = [
         authorImg: "assets/images/a1.jpg",
         category: "Programming",
     },
-    {
-        title: "Learn Master JQuery in a Short Period of Time",
-        price: "$49.00",
-        duration: 20,
-        students: 50,
-        author: "William",
-        category: "Programming",
-        image: "assets/images/jquery.jpg",
-        level: "Intermediate",
-        rating: 5,
-        authorImg: "assets/images/william.jpg",
-    },
-    {
-        title: "Learning to Write as a Clean and Professional Author",
-        price: "$0.00",
-        duration: 20,
-        students: 50,
-        author: "Isabella",
-        category: "Teaching",
-        image: "assets/images/author.jpg",
-        level: "Beginner",
-        rating: 5,
-        authorImg: "assets/images/isabella.jpg",
-    },
+    // Add more courses as needed
 ];
 
 const CoursesList = () => {
@@ -48,7 +24,7 @@ const CoursesList = () => {
                 <div className="container py-lg-5 py-md-4 py-2">
                     <div className="row">
                         {courses.map((course, index) => (
-                            <OurCourses
+                            <CourseCard
                                 key={index}
                                 image={course.image}
                                 title={course.title}

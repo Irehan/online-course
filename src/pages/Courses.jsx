@@ -3,7 +3,7 @@ import { Header } from '../components/Header'
 import { Footer } from '../components/Footer'
 import MoveToTop from '../components/MoveToTop';
 import Breadcrumb from '../components/Breadcrumb';
-import OurCourses from '../components/OurCourses';
+import OurCourses from '../components/CourseCard';
 import Pagination from '../components/Pagination';
 export const Courses = () => (
     <>
