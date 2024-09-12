@@ -15,6 +15,7 @@ const courses = [
         category: "Programming",
     },
     {
+        image: "assets/images/c2.jpg",
         title: "Learn Master JQuery in a Short Period of Time",
         price: "$49.00",
         duration: 20,
@@ -27,6 +28,7 @@ const courses = [
         authorImg: "assets/images/william.jpg",
     },
     {
+        image: "assets/images/c3.jpg",
         title: "Learning to Write as a Clean and Professional Author",
         price: "$0.00",
         duration: 20,
