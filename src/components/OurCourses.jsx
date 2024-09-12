@@ -1,5 +1,7 @@
-import React from 'react'
-function OurCourses(image, title, price, duration, students, level, rating, author, authorImg, category) {
+// OurCourses.jsx
+import React from 'react';
+
+function OurCourses({ image, title, price, duration, students, level, rating, author, authorImg, category }) {
     return (
         <section className="w3l-courses">
             <div className="blog pb-5" id="courses">
@@ -54,11 +56,11 @@ function OurCourses(image, title, price, duration, students, level, rating, auth
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
         </section>
-    )
+    );
 }
-export default OurCourses
+
+export default OurCourses;

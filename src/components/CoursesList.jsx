@@ -1,6 +1,5 @@
-// CoursesList.js
 import React from 'react';
-import CourseCard from './OurCourses';
+import OurCourses from './OurCourses';
 
 const courses = [
     {
@@ -22,8 +21,10 @@ const courses = [
         students: 50,
         author: "William",
         category: "Programming",
-        image: "jquery-course-image-url",
-        badge: "New"
+        image: "assets/images/jquery.jpg", // make sure this path is correct
+        level: "Intermediate", // Add missing level here
+        rating: 5,
+        authorImg: "assets/images/william.jpg", // Add author image
     },
     {
         title: "Learning to Write as a Clean and Professional Author",
@@ -32,17 +33,19 @@ const courses = [
         students: 50,
         author: "Isabella",
         category: "Teaching",
-        image: "author-course-image-url",
-        badge: "Beginner"
+        image: "assets/images/author.jpg", // make sure this path is correct
+        level: "Beginner", // Add missing level here
+        rating: 5,
+        authorImg: "assets/images/isabella.jpg", // Add author image
     },
-    // You can add more courses here
+    // Add more courses as needed
 ];
 
 const CoursesList = () => {
     return (
         <div className="row">
             {courses.map((course, index) => (
-                <CourseCard
+                <OurCourses
                     key={index}
                     image={course.image}
                     title={course.title}
