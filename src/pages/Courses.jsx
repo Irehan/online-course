@@ -5,7 +5,6 @@ import MoveToTop from '../components/MoveToTop';
 import Breadcrumb from '../components/Breadcrumb';
 import CoursesList from '../components/CoursesList';
 import Pagination from '../components/Pagination';
-import CourseCard from '../components/CourseCard';
 export const Courses = () => (
     <>
         <Header />
