@@ -52,5 +52,4 @@ function CourseCard({ image, title, price, duration, students, level, rating, au
         </div>
     );
 }
-
 export default CourseCard;
