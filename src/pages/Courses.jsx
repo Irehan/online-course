@@ -10,8 +10,6 @@ export const Courses = () => (
         <Header />
         <Breadcrumb />
         <CoursesList />
-        <CoursesList />
-        <CoursesList />
         <Pagination />
         <MoveToTop />
         <Footer />
