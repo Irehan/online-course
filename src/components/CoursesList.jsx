@@ -3,7 +3,7 @@ import CourseCard from './CourseCard';  // Updated import
 
 const courses = [
     {
-        image: "/assets/images/c1.jpg",
+        image: "assets/images/c1.jpg",
         title: "Open Programming Courses for everyone: Python",
         price: "$35.00",
         duration: 20,
