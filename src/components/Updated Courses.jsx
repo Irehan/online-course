@@ -5,16 +5,15 @@ import MoveToTop from '../components/MoveToTop';
 import Breadcrumb from '../components/Breadcrumb';
 import CoursesList from '../components/CoursesList';
 import Pagination from '../components/Pagination';
+import { CoursesProvider } from '../context/CoursesContext';
+
 export const Courses = () => (
-    <>
+    <CoursesProvider>
         <Header />
         <Breadcrumb />
         <CoursesList />
         <Pagination />
         <MoveToTop />
         <Footer />
-    </>
+    </CoursesProvider>
 );
-
-
-

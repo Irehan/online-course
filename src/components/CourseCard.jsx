@@ -1,5 +1,5 @@
+// CourseCard.jsx
 import React from 'react';
-
 function CourseCard({ image, title, price, duration, students, level, rating, author, authorImg, category }) {
     return (
         <div className="col-lg-4 col-md-6 item">

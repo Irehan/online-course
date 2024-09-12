@@ -1,8 +1,11 @@
+// CoursesList.jsx
 import React from 'react';
-import CourseCard from './CourseCard';  // Updated import
-import courses from './coursesData'; // Adjust the path as necessary
+import CourseCard from './CourseCard';
+import { useCourses } from './CoursesContext';
 
 const CoursesList = () => {
+    const { courses } = useCourses();
+
     return (
         <section className="w3l-courses">
             <div className="blog pb-5" id="courses">
@@ -10,17 +13,8 @@ const CoursesList = () => {
                     <div className="row">
                         {courses.map((course, index) => (
                             <CourseCard
-                                key={index} // Adding a unique key for each course
-                                image={course.image}
-                                title={course.title}
-                                price={course.price}
-                                duration={course.duration}
-                                students={course.students}
-                                level={course.level}
-                                rating={course.rating}
-                                author={course.author}
-                                authorImg={course.authorImg}
-                                category={course.category}
+                                key={index}
+                                {...course}
                             />
                         ))}
                     </div>
