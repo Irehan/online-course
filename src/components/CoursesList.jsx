@@ -14,7 +14,30 @@ const courses = [
         authorImg: "assets/images/a1.jpg",
         category: "Programming",
     },
-    // Add more courses as needed
+    {
+        title: "Learn Master JQuery in a Short Period of Time",
+        price: "$49.00",
+        duration: 20,
+        students: 50,
+        author: "William",
+        category: "Programming",
+        image: "assets/images/jquery.jpg",
+        level: "Intermediate",
+        rating: 5,
+        authorImg: "assets/images/william.jpg",
+    },
+    {
+        title: "Learning to Write as a Clean and Professional Author",
+        price: "$0.00",
+        duration: 20,
+        students: 50,
+        author: "Isabella",
+        category: "Teaching",
+        image: "assets/images/author.jpg",
+        level: "Beginner",
+        rating: 5,
+        authorImg: "assets/images/isabella.jpg",
+    },
 ];
 
 const CoursesList = () => {
