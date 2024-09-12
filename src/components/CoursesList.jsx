@@ -24,7 +24,7 @@ const courses = [
         category: "Programming",
         level: "Intermediate",
         rating: 5,
-        authorImg: "assets/images/william.jpg",
+        authorImg: "assets/images/a2.jpg",
     },
     {
         image: "assets/images/c3.jpg",
@@ -36,7 +36,7 @@ const courses = [
         category: "Teaching",
         level: "Beginner",
         rating: 5,
-        authorImg: "assets/images/isabella.jpg",
+        authorImg: "assets/images/a3.jpg",
     },
 ];
 
