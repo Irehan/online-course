@@ -5,7 +5,7 @@ function Pagination() {
       <ul className="page-pagination">
         <li><a className="next" href="#url"><span className="fa fa-angle-left"></span> Prev</a></li>
         <li><span aria-current="page" className="page-numbers current">1</span></li>
-        <li><a className="page-numbers" href="#url">2</a></li>
+        <li><a className="page-numbers" href="javascript:void(0)">2</a></li>
         <li><a className="page-numbers" href="#url">3</a></li>
         <li><a className="page-numbers" href="#url">....</a></li>
         <li><a className="next" href="#url">Next <span className="fa fa-angle-right"></span></a></li>
