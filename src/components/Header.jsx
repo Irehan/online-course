@@ -32,17 +32,17 @@ export const Header = () => (
                                 Home <span className="sr-only">(current)</span>
                             </Link>
                         </li>
-                        <li className="nav-item @@about__active">
+                        <li className="nav-item">
                             <Link className="nav-link" to="/about">
                                 About
                             </Link>
                         </li>
-                        <li className="nav-item @@courses__active">
+                        <li className="nav-item">
                             <Link className="nav-link" to="/courses">
                                 Courses
                             </Link>
                         </li>
-                        <li className="nav-item @@contact__active">
+                        <li className="nav-item">
                             <Link className="nav-link" to="/contact">
                                 Contact
                             </Link>
