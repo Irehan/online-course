@@ -1,10 +1,14 @@
 // CoursesList.jsx
 import React from 'react';
 import CourseCard from './CourseCard';
-import { useCourses } from './CoursesContext';
+import { useCourses } from '../context/CoursesContext';
 
 const CoursesList = () => {
     const { courses } = useCourses();
+
+    if (!courses) {
+        return <div>Loading courses...</div>;
+    }
 
     return (
         <section className="w3l-courses">
