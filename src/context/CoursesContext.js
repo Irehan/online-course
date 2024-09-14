@@ -1,5 +1,5 @@
 import React, { createContext, useState, useContext } from "react";
-import coursesData from "../data/coursesData"; // Adjust path as needed
+import coursesData from "../data/coursesData";
 
 const CoursesContext = createContext();
 

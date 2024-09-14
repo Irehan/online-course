@@ -39,10 +39,10 @@ export const Footer = () => (
                                 <Link to="/about">About company</Link>
                             </li>
                             <li>
-                                <Link to="/blog"> Latest Blog posts</Link>
+                                <Link to="/ComingSoon"> Latest Blog posts</Link>
                             </li>
                             <li>
-                                <Link to="/teacher"> Became a teacher </Link>
+                                <Link to="/ComingSoon"> Became a teacher </Link>
                             </li>
                             <li>
                                 <Link to="/courses">Online Courses</Link>
@@ -56,19 +56,19 @@ export const Footer = () => (
                         <h6 className="footer-title-29">Programs</h6>
                         <ul>
                             <li>
-                                <Link to="/traning">Training Center</Link>
+                                <Link to="/ComingSoon">Training Center</Link>
                             </li>
                             <li>
-                                <Link to="/documentation">Documentation</Link>
+                                <Link to="/ComingSoon">Documentation</Link>
                             </li>
                             <li>
-                                <Link to="/release">Release Status</Link>
+                                <Link to="/ComingSoon">Release Status</Link>
                             </li>
                             <li>
-                                <Link to="/customers"> Customers</Link>
+                                <Link to="/ComingSoon"> Customers</Link>
                             </li>
                             <li>
-                                <Link to="/helpcenter"> Help Center</Link>
+                                <Link to="/ComingSoon"> Help Center</Link>
                             </li>
                         </ul>
                     </div>
