@@ -74,20 +74,20 @@ export const Footer = () => (
                     </div>
                     <div className="col-lg-3 col-md-6 col-sm-7 footer-list-29 footer-4 mt-lg-0 mt-5">
                         <h6 className="footer-title-29">Suppport</h6>
-                        <a href="#playstore">
+                        <Link to="/ComingSoon">
                             <img
                                 src="assets/images/googleplay.png"
                                 className="img-responsive"
                                 alt="A description of the example"
                             />
-                        </a>
-                        <a href="#appstore">
+                        </Link>
+                        <Link to="/ComingSoon">
                             <img
                                 src="assets/images/appstore.png"
                                 className="img-responsive mt-3"
                                 alt="A description of the example"
                             />
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>

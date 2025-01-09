@@ -12,7 +12,7 @@ const CoursesList = () => {
     return (
 
         <section className="w3l-courses">
-            <div className="blog pb-5" id="courses">
+            <div className="blog" id="courses">
                 <div className="container py-lg-5 py-md-4 py-2">
                     <h5 className="title-small text-center mb-1">
                         Join our learn Courses
